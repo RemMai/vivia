@@ -6,7 +6,12 @@
     <% if (theme.copyright){ %>
       <%- render(theme.copyright, 'pug'); %>
     <% } %>
-    &copy; <%= date(new Date(), 'YYYY') %> <%= theme.author || config.author || config.title %> 🧁<br>
+    &copy; <%= date(new Date(), 'YYYY') %> <%= theme.author || config.author || config.title %>  🧁<br>
+    <%= __('如果真爱有颜色 💙 那么一定是蓝色') %>
+
     <!-- <%= __('powered_by') %> <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a> -->
+
+
+
   </div>
 </footer>
